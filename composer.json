@@ -13,6 +13,7 @@
             "email": "genamalugin@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "HelloHomework\\": "src/HelloHomework" 
