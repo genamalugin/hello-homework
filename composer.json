@@ -1,0 +1,20 @@
+{
+    "name": "gena/hello-homework",
+    "description": "my package hello homework",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^2.2",
+        "symfony/yaml": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "Gennadiy Malugin",
+            "email": "genamalugin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HelloHomework\\": "src/HelloHomework" 
+        }
+    }
+}
